@@ -128,7 +128,7 @@ public class Help extends Command {
                                 TranslatableCaption.of("help.help_info_item").getComponent(player),
                                 Template.of("command", "/plot help"),
                                 Template.of("category", "all"),
-                                Template.of("category_desc", "Display all commands")
+                                Template.of("category_desc", TranslatableCaption.of("help.help_display_all_commands").getComponent(player))
                         ));
                 builder.append(Component.newline()).append(MINI_MESSAGE.parse(TranslatableCaption
                         .of("help.help_footer")
